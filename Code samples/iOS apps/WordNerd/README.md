@@ -1,4 +1,4 @@
-WordNerd – a Boggle utility for iOS
+WordNerd – a Boggle utility for iOS  
 © Elana Bell Bogdan, 2011
 
 Learn more at:
