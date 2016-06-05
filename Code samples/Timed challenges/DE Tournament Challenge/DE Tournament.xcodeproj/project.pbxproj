@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA035B6116F258A900E932E3 /* bracket.png in Resources */ = {isa = PBXBuildFile; fileRef = AA035B5F16F258A900E932E3 /* bracket.png */; };
+		AA035B6216F258A900E932E3 /* bracket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA035B6016F258A900E932E3 /* bracket@2x.png */; };
+		AA468F9E16EC5EB6008CFACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA468F9D16EC5EB6008CFACC /* UIKit.framework */; };
+		AA468FA016EC5EB6008CFACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA468F9F16EC5EB6008CFACC /* Foundation.framework */; };
+		AA468FA216EC5EB6008CFACC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA468FA116EC5EB6008CFACC /* CoreGraphics.framework */; };
+		AA468FA816EC5EB6008CFACC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA468FA616EC5EB6008CFACC /* InfoPlist.strings */; };
+		AA468FAA16EC5EB6008CFACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468FA916EC5EB6008CFACC /* main.m */; };
+		AA468FAE16EC5EB6008CFACC /* DEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468FAD16EC5EB6008CFACC /* DEAppDelegate.m */; };
+		AA468FB716EC5EB6008CFACC /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468FB616EC5EB6008CFACC /* DEViewController.m */; };
+		AA468FBA16EC5EB7008CFACC /* DEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA468FB816EC5EB7008CFACC /* DEViewController.xib */; };
+		AA468FC616ED3D5D008CFACC /* DETree.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468FC516ED3D5C008CFACC /* DETree.m */; };
+		AA468FCA16EF08A0008CFACC /* DESelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468FC816EF089F008CFACC /* DESelectionController.m */; };
+		AA468FCB16EF08A0008CFACC /* DESelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA468FC916EF089F008CFACC /* DESelectionController.xib */; };
+		AA468FCE16EF5790008CFACC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468FCD16EF5790008CFACC /* Reachability.m */; };
+		AA468FD016EF5FF0008CFACC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA468FCF16EF5FEF008CFACC /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA035B5F16F258A900E932E3 /* bracket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bracket.png; path = ../bracket.png; sourceTree = "<group>"; };
+		AA035B6016F258A900E932E3 /* bracket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bracket@2x.png"; path = "../bracket@2x.png"; sourceTree = "<group>"; };
+		AA468F9A16EC5EB6008CFACC /* DE Tournament.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DE Tournament.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA468F9D16EC5EB6008CFACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA468F9F16EC5EB6008CFACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA468FA116EC5EB6008CFACC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA468FA516EC5EB6008CFACC /* DE Tournament-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DE Tournament-Info.plist"; sourceTree = "<group>"; };
+		AA468FA716EC5EB6008CFACC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA468FA916EC5EB6008CFACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA468FAB16EC5EB6008CFACC /* DE Tournament-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DE Tournament-Prefix.pch"; sourceTree = "<group>"; };
+		AA468FAC16EC5EB6008CFACC /* DEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEAppDelegate.h; sourceTree = "<group>"; };
+		AA468FAD16EC5EB6008CFACC /* DEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEAppDelegate.m; sourceTree = "<group>"; };
+		AA468FB516EC5EB6008CFACC /* DEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEViewController.h; sourceTree = "<group>"; };
+		AA468FB616EC5EB6008CFACC /* DEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEViewController.m; sourceTree = "<group>"; };
+		AA468FB916EC5EB7008CFACC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEViewController.xib; sourceTree = "<group>"; };
+		AA468FC416ED3D5C008CFACC /* DETree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DETree.h; sourceTree = "<group>"; };
+		AA468FC516ED3D5C008CFACC /* DETree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DETree.m; sourceTree = "<group>"; };
+		AA468FC716EF089F008CFACC /* DESelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESelectionController.h; sourceTree = "<group>"; };
+		AA468FC816EF089F008CFACC /* DESelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESelectionController.m; sourceTree = "<group>"; };
+		AA468FC916EF089F008CFACC /* DESelectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DESelectionController.xib; sourceTree = "<group>"; };
+		AA468FCC16EF578F008CFACC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AA468FCD16EF5790008CFACC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		AA468FCF16EF5FEF008CFACC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA468F9716EC5EB6008CFACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA468FD016EF5FF0008CFACC /* SystemConfiguration.framework in Frameworks */,
+				AA468F9E16EC5EB6008CFACC /* UIKit.framework in Frameworks */,
+				AA468FA016EC5EB6008CFACC /* Foundation.framework in Frameworks */,
+				AA468FA216EC5EB6008CFACC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA468F9116EC5EB6008CFACC = {
+			isa = PBXGroup;
+			children = (
+				AA468FA316EC5EB6008CFACC /* DE Tournament */,
+				AA468F9C16EC5EB6008CFACC /* Frameworks */,
+				AA468F9B16EC5EB6008CFACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA468F9B16EC5EB6008CFACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA468F9A16EC5EB6008CFACC /* DE Tournament.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA468F9C16EC5EB6008CFACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA468FCF16EF5FEF008CFACC /* SystemConfiguration.framework */,
+				AA468F9D16EC5EB6008CFACC /* UIKit.framework */,
+				AA468F9F16EC5EB6008CFACC /* Foundation.framework */,
+				AA468FA116EC5EB6008CFACC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA468FA316EC5EB6008CFACC /* DE Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				AA035B5F16F258A900E932E3 /* bracket.png */,
+				AA035B6016F258A900E932E3 /* bracket@2x.png */,
+				AA468FAC16EC5EB6008CFACC /* DEAppDelegate.h */,
+				AA468FAD16EC5EB6008CFACC /* DEAppDelegate.m */,
+				AA468FB516EC5EB6008CFACC /* DEViewController.h */,
+				AA468FB616EC5EB6008CFACC /* DEViewController.m */,
+				AA468FB816EC5EB7008CFACC /* DEViewController.xib */,
+				AA468FC716EF089F008CFACC /* DESelectionController.h */,
+				AA468FC816EF089F008CFACC /* DESelectionController.m */,
+				AA468FC916EF089F008CFACC /* DESelectionController.xib */,
+				AA468FC416ED3D5C008CFACC /* DETree.h */,
+				AA468FC516ED3D5C008CFACC /* DETree.m */,
+				AA468FCC16EF578F008CFACC /* Reachability.h */,
+				AA468FCD16EF5790008CFACC /* Reachability.m */,
+				AA468FA416EC5EB6008CFACC /* Supporting Files */,
+			);
+			path = "DE Tournament";
+			sourceTree = "<group>";
+		};
+		AA468FA416EC5EB6008CFACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA468FA516EC5EB6008CFACC /* DE Tournament-Info.plist */,
+				AA468FA616EC5EB6008CFACC /* InfoPlist.strings */,
+				AA468FA916EC5EB6008CFACC /* main.m */,
+				AA468FAB16EC5EB6008CFACC /* DE Tournament-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA468F9916EC5EB6008CFACC /* DE Tournament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA468FBD16EC5EB7008CFACC /* Build configuration list for PBXNativeTarget "DE Tournament" */;
+			buildPhases = (
+				AA468F9616EC5EB6008CFACC /* Sources */,
+				AA468F9716EC5EB6008CFACC /* Frameworks */,
+				AA468F9816EC5EB6008CFACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DE Tournament";
+			productName = "DE Tournament";
+			productReference = AA468F9A16EC5EB6008CFACC /* DE Tournament.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA468F9216EC5EB6008CFACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Elana Bogdan";
+			};
+			buildConfigurationList = AA468F9516EC5EB6008CFACC /* Build configuration list for PBXProject "DE Tournament" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA468F9116EC5EB6008CFACC;
+			productRefGroup = AA468F9B16EC5EB6008CFACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA468F9916EC5EB6008CFACC /* DE Tournament */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA468F9816EC5EB6008CFACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA468FA816EC5EB6008CFACC /* InfoPlist.strings in Resources */,
+				AA468FBA16EC5EB7008CFACC /* DEViewController.xib in Resources */,
+				AA468FCB16EF08A0008CFACC /* DESelectionController.xib in Resources */,
+				AA035B6116F258A900E932E3 /* bracket.png in Resources */,
+				AA035B6216F258A900E932E3 /* bracket@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA468F9616EC5EB6008CFACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA468FAA16EC5EB6008CFACC /* main.m in Sources */,
+				AA468FAE16EC5EB6008CFACC /* DEAppDelegate.m in Sources */,
+				AA468FB716EC5EB6008CFACC /* DEViewController.m in Sources */,
+				AA468FC616ED3D5D008CFACC /* DETree.m in Sources */,
+				AA468FCA16EF08A0008CFACC /* DESelectionController.m in Sources */,
+				AA468FCE16EF5790008CFACC /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA468FA616EC5EB6008CFACC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA468FA716EC5EB6008CFACC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA468FB816EC5EB7008CFACC /* DEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA468FB916EC5EB7008CFACC /* en */,
+			);
+			name = DEViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA468FBB16EC5EB7008CFACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA468FBC16EC5EB7008CFACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA468FBE16EC5EB7008CFACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DE Tournament/DE Tournament-Prefix.pch";
+				INFOPLIST_FILE = "DE Tournament/DE Tournament-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA468FBF16EC5EB7008CFACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DE Tournament/DE Tournament-Prefix.pch";
+				INFOPLIST_FILE = "DE Tournament/DE Tournament-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA468F9516EC5EB6008CFACC /* Build configuration list for PBXProject "DE Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA468FBB16EC5EB7008CFACC /* Debug */,
+				AA468FBC16EC5EB7008CFACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA468FBD16EC5EB7008CFACC /* Build configuration list for PBXNativeTarget "DE Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA468FBE16EC5EB7008CFACC /* Debug */,
+				AA468FBF16EC5EB7008CFACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA468F9216EC5EB6008CFACC /* Project object */;
+}

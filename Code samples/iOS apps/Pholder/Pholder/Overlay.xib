@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="POImagePickerController">
+            <connections>
+                <outlet property="albumButton" destination="4jc-KM-uqB" id="JaO-zp-oN4"/>
+                <outlet property="bottomBar" destination="pbt-K8-owb" id="bQZ-53-NGj"/>
+                <outlet property="exportSwitch" destination="yTZ-zy-uSp" id="254-uJ-Sev"/>
+                <outlet property="flashButton" destination="6hY-sI-oJy" id="B4V-vs-eLe"/>
+                <outlet property="flipCameraButton" destination="2Hj-gT-x1v" id="pkA-TE-o4C"/>
+                <outlet property="mediaTypeViewProgrammatic" destination="aSM-t8-64T" id="biV-ZH-Q8a"/>
+                <outlet property="overlayView" destination="iN0-l3-epB" id="SqC-iQ-zwO"/>
+                <outlet property="photoLabel" destination="R8u-R2-WCt" id="2Ic-WU-eY3"/>
+                <outlet property="reviewSwitch" destination="lMX-qO-VM0" id="K8b-zg-g0j"/>
+                <outlet property="settingsButton" destination="PcV-9Z-UKV" id="s6F-8T-6HL"/>
+                <outlet property="settingsView" destination="5pI-ZT-cbg" id="zqj-jO-gYr"/>
+                <outlet property="shutterButton" destination="Ya6-YG-aRm" id="inD-SI-UC0"/>
+                <outlet property="videoLabel" destination="51G-ac-s10" id="Wsa-zI-3fB"/>
+                <outlet property="videoRecordingLight" destination="1qi-RH-bqb" id="rO2-hs-IZT"/>
+                <outlet property="videoTimerLabel" destination="G6Y-zD-X2e" id="UDW-zf-sec"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u23-ms-QkP">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="6bF-Iv-iTT"/>
+                        <constraint firstAttribute="width" constant="320" id="Dit-wW-MeT"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pbt-K8-owb">
+                    <rect key="frame" x="0.0" y="468" width="320" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="apt-Ni-iEi"/>
+                    </constraints>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9NK-gc-tto">
+                    <color key="backgroundColor" white="0.65000000000000002" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CcC-jb-Z2c">
+                    <color key="backgroundColor" white="0.64641094924812026" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hY-sI-oJy">
+                    <rect key="frame" x="4" y="0.0" width="54" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="54" id="yXQ-Qw-B8H"/>
+                        <constraint firstAttribute="height" constant="40" id="zOA-dH-7Dx"/>
+                    </constraints>
+                    <state key="normal" image="Flash_auto.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="changeFlashMode:" destination="-1" eventType="touchUpInside" id="rUP-JI-rrw"/>
+                    </connections>
+                </button>
+                <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jc-KM-uqB">
+                    <rect key="frame" x="59" y="4" width="202" height="33"/>
+                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="15"/>
+                    <state key="normal" title="Pholder: Camera Roll">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="0.82458160840000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="toggleAlbumMenu" destination="-1" eventType="touchUpInside" id="GVc-Ze-5nJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcV-9Z-UKV">
+                    <rect key="frame" x="248" y="511" width="41" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="5yI-wh-Uls"/>
+                        <constraint firstAttribute="width" constant="41" id="VBc-OP-h6G"/>
+                    </constraints>
+                    <state key="normal" image="Settings_icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toggleSettings:" destination="-1" eventType="touchUpInside" id="Zaf-Nh-2GS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhU-ff-tNI">
+                    <rect key="frame" x="24" y="512" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="BNu-IT-5sb"/>
+                        <constraint firstAttribute="width" constant="45" id="twn-FS-PKB"/>
+                    </constraints>
+                    <state key="normal" image="Library_button.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="displayPhotoLibrary:" destination="-1" eventType="touchUpInside" id="9uz-E9-b9j"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6Y-zD-X2e">
+                    <rect key="frame" x="78" y="10" width="164" height="21"/>
+                    <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qi-RH-bqb">
+                    <rect key="frame" x="106" y="9" width="26" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <color key="textColor" red="1" green="0.0588715764" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ya6-YG-aRm">
+                    <rect key="frame" x="128" y="499" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="Vwa-Hy-K7K"/>
+                        <constraint firstAttribute="height" constant="65" id="h9G-Eg-Rft"/>
+                    </constraints>
+                    <state key="normal" image="Shutter_button.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="Shutter_button(pressed).png"/>
+                    <connections>
+                        <action selector="captureMedia:" destination="-1" eventType="touchUpInside" id="gxy-cP-VKr"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUM-ke-IzZ">
+                    <rect key="frame" x="147" y="466" width="26" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="IcU-sb-kX3"/>
+                        <constraint firstAttribute="width" constant="26" id="jmK-KM-EkT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <color key="textColor" red="0.9882352941176471" green="0.80784313725490198" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Hj-gT-x1v">
+                    <rect key="frame" x="265" y="0.0" width="48" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Bxl-ly-LZC"/>
+                        <constraint firstAttribute="width" constant="48" id="oUQ-xf-3Pu"/>
+                    </constraints>
+                    <state key="normal" image="Flip_button.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="flipCamera:" destination="-1" eventType="touchUpInside" id="qz7-Le-Gxb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="FUM-ke-IzZ" secondAttribute="centerX" id="79L-Xy-HBm"/>
+                <constraint firstItem="pbt-K8-owb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CXk-pj-T52"/>
+                <constraint firstAttribute="bottom" secondItem="Ya6-YG-aRm" secondAttribute="bottom" constant="4" id="EZQ-Dr-9pQ"/>
+                <constraint firstAttribute="trailing" secondItem="pbt-K8-owb" secondAttribute="trailing" id="EiV-4J-wMQ"/>
+                <constraint firstAttribute="bottom" secondItem="PcV-9Z-UKV" secondAttribute="bottom" constant="16" id="KrX-35-Q8L"/>
+                <constraint firstAttribute="centerX" secondItem="Ya6-YG-aRm" secondAttribute="centerX" id="Nrm-E7-E3W"/>
+                <constraint firstItem="WhU-ff-tNI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="OrO-U6-dAj"/>
+                <constraint firstItem="u23-ms-QkP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PEz-u2-Xd1"/>
+                <constraint firstAttribute="centerX" secondItem="pbt-K8-owb" secondAttribute="centerX" id="QKv-VZ-9yU"/>
+                <constraint firstAttribute="trailing" secondItem="PcV-9Z-UKV" secondAttribute="trailing" constant="31" id="Ses-ub-WXW"/>
+                <constraint firstAttribute="bottom" secondItem="pbt-K8-owb" secondAttribute="bottom" id="UWK-cC-8YR"/>
+                <constraint firstAttribute="bottom" secondItem="WhU-ff-tNI" secondAttribute="bottom" constant="11" id="Xyz-ct-FVL"/>
+                <constraint firstAttribute="centerX" secondItem="u23-ms-QkP" secondAttribute="centerX" id="b0U-gt-isN"/>
+                <constraint firstAttribute="bottom" secondItem="FUM-ke-IzZ" secondAttribute="bottom" constant="81" id="oJu-gj-aqo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="153" y="169"/>
+        </view>
+        <view contentMode="scaleToFill" id="5pI-ZT-cbg">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lMX-qO-VM0">
+                    <rect key="frame" x="31" y="20" width="51" height="31"/>
+                    <color key="onTintColor" red="1" green="0.82458160840000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="changeDoReviewSetting:" destination="-1" eventType="valueChanged" id="8uh-xl-tCE"/>
+                    </connections>
+                </switch>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yTZ-zy-uSp">
+                    <rect key="frame" x="31" y="64" width="51" height="31"/>
+                    <color key="onTintColor" red="1" green="0.82458160840000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="changeExportSettings:" destination="-1" eventType="valueChanged" id="6g4-eh-A8c"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Review photo after taking" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQe-uv-PTf">
+                    <rect key="frame" x="88" y="24" width="212" height="23"/>
+                    <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="18"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Export photos when app exits" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhC-Cu-zHq">
+                    <rect key="frame" x="88" y="68" width="212" height="23"/>
+                    <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="18"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="843" y="150.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="aSM-t8-64T">
+            <rect key="frame" x="0.0" y="0.0" width="97" height="22"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VIDEO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51G-ac-s10">
+                    <rect key="frame" x="4" y="1" width="51" height="21"/>
+                    <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PHOTO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8u-R2-WCt">
+                    <rect key="frame" x="62" y="1" width="60" height="21"/>
+                    <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="12"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.80784313730000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="157.5" y="528"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Flash_auto.png" width="108" height="80"/>
+        <image name="Flip_button.png" width="96" height="80"/>
+        <image name="Library_button.png" width="97" height="97"/>
+        <image name="Settings_icon.png" width="82" height="82"/>
+        <image name="Shutter_button(pressed).png" width="137" height="137"/>
+        <image name="Shutter_button.png" width="137" height="137"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

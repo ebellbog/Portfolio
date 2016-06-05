@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="POPhotoReviewController">
+            <connections>
+                <outlet property="bottomBar" destination="qx0-Eo-6NM" id="XoO-AI-NjO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qx0-Eo-6NM">
+                    <rect key="frame" x="0.0" y="508" width="320" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="U8D-tr-79F"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rD4-8u-LlB">
+                    <rect key="frame" x="45" y="508" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Ba5-4Y-Mi0"/>
+                        <constraint firstAttribute="height" constant="60" id="FzA-fR-Qhf"/>
+                    </constraints>
+                    <state key="normal" image="Save_button.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="done:" destination="-1" eventType="touchUpInside" id="8RR-Ul-LTn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDS-r7-rq9">
+                    <rect key="frame" x="215" y="508" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="AFE-ie-1kx"/>
+                        <constraint firstAttribute="height" constant="60" id="ohx-8V-8tZ"/>
+                    </constraints>
+                    <state key="normal" image="Delete_button.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="done:" destination="-1" eventType="touchUpInside" id="a5t-cD-NK6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ar-GN-87Y">
+                    <rect key="frame" x="130" y="508" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="QEk-Zh-qho"/>
+                        <constraint firstAttribute="width" constant="60" id="cny-Ps-Zam"/>
+                    </constraints>
+                    <state key="normal" image="Favorite_button.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toggleFavorite:" destination="-1" eventType="touchUpInside" id="LwM-EA-M6F"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9ar-GN-87Y" secondAttribute="bottom" id="CgP-Lf-reN"/>
+                <constraint firstItem="qx0-Eo-6NM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="PnL-wH-eSa"/>
+                <constraint firstAttribute="bottom" secondItem="rD4-8u-LlB" secondAttribute="bottom" id="RdV-1s-nL8"/>
+                <constraint firstAttribute="bottom" secondItem="qDS-r7-rq9" secondAttribute="bottom" id="Ue3-9u-OPl"/>
+                <constraint firstAttribute="trailing" secondItem="qx0-Eo-6NM" secondAttribute="trailing" id="Wk3-jS-iHM"/>
+                <constraint firstItem="9ar-GN-87Y" firstAttribute="leading" secondItem="rD4-8u-LlB" secondAttribute="trailing" constant="25" id="hDi-Jy-uu3"/>
+                <constraint firstAttribute="bottom" secondItem="qx0-Eo-6NM" secondAttribute="bottom" id="ltU-oF-1zk"/>
+                <constraint firstAttribute="centerX" secondItem="9ar-GN-87Y" secondAttribute="centerX" id="sPY-9Y-UBS"/>
+                <constraint firstItem="qDS-r7-rq9" firstAttribute="leading" secondItem="9ar-GN-87Y" secondAttribute="trailing" constant="25" id="tSy-ek-Jta"/>
+                <constraint firstAttribute="centerX" secondItem="qx0-Eo-6NM" secondAttribute="centerX" id="v0h-qj-Vrh"/>
+            </constraints>
+            <point key="canvasLocation" x="136" y="118"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Delete_button.png" width="120" height="120"/>
+        <image name="Favorite_button.png" width="120" height="120"/>
+        <image name="Save_button.png" width="120" height="120"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

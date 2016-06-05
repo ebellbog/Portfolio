@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB5F9DF1A2B95AB0008EC64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5F9DE1A2B95AB0008EC64 /* AppDelegate.m */; };
+		AAB5F9E11A2B95AB0008EC64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5F9E01A2B95AB0008EC64 /* main.m */; };
+		AAB5F9E31A2B95AB0008EC64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB5F9E21A2B95AB0008EC64 /* Images.xcassets */; };
+		AAB5F9E61A2B95AB0008EC64 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB5F9E41A2B95AB0008EC64 /* MainMenu.xib */; };
+		AAB5F9F21A2B95AB0008EC64 /* Pholder_AssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5F9F11A2B95AB0008EC64 /* Pholder_AssistantTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB5F9EC1A2B95AB0008EC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB5F9D01A2B95AB0008EC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB5F9D71A2B95AB0008EC64;
+			remoteInfo = "Pholder Assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB5F9D81A2B95AB0008EC64 /* Pholder Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pholder Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB5F9DC1A2B95AB0008EC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB5F9DD1A2B95AB0008EC64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAB5F9DE1A2B95AB0008EC64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAB5F9E01A2B95AB0008EC64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB5F9E21A2B95AB0008EC64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAB5F9E51A2B95AB0008EC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AAB5F9EB1A2B95AB0008EC64 /* Pholder AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pholder AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB5F9F01A2B95AB0008EC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB5F9F11A2B95AB0008EC64 /* Pholder_AssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pholder_AssistantTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB5F9D51A2B95AB0008EC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB5F9E81A2B95AB0008EC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB5F9CF1A2B95AB0008EC64 = {
+			isa = PBXGroup;
+			children = (
+				AAB5F9DA1A2B95AB0008EC64 /* Pholder Assistant */,
+				AAB5F9EE1A2B95AB0008EC64 /* Pholder AssistantTests */,
+				AAB5F9D91A2B95AB0008EC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB5F9D91A2B95AB0008EC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5F9D81A2B95AB0008EC64 /* Pholder Assistant.app */,
+				AAB5F9EB1A2B95AB0008EC64 /* Pholder AssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB5F9DA1A2B95AB0008EC64 /* Pholder Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5F9DD1A2B95AB0008EC64 /* AppDelegate.h */,
+				AAB5F9DE1A2B95AB0008EC64 /* AppDelegate.m */,
+				AAB5F9E21A2B95AB0008EC64 /* Images.xcassets */,
+				AAB5F9E41A2B95AB0008EC64 /* MainMenu.xib */,
+				AAB5F9DB1A2B95AB0008EC64 /* Supporting Files */,
+			);
+			path = "Pholder Assistant";
+			sourceTree = "<group>";
+		};
+		AAB5F9DB1A2B95AB0008EC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5F9DC1A2B95AB0008EC64 /* Info.plist */,
+				AAB5F9E01A2B95AB0008EC64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAB5F9EE1A2B95AB0008EC64 /* Pholder AssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5F9F11A2B95AB0008EC64 /* Pholder_AssistantTests.m */,
+				AAB5F9EF1A2B95AB0008EC64 /* Supporting Files */,
+			);
+			path = "Pholder AssistantTests";
+			sourceTree = "<group>";
+		};
+		AAB5F9EF1A2B95AB0008EC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5F9F01A2B95AB0008EC64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB5F9D71A2B95AB0008EC64 /* Pholder Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB5F9F51A2B95AB0008EC64 /* Build configuration list for PBXNativeTarget "Pholder Assistant" */;
+			buildPhases = (
+				AAB5F9D41A2B95AB0008EC64 /* Sources */,
+				AAB5F9D51A2B95AB0008EC64 /* Frameworks */,
+				AAB5F9D61A2B95AB0008EC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pholder Assistant";
+			productName = "Pholder Assistant";
+			productReference = AAB5F9D81A2B95AB0008EC64 /* Pholder Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB5F9EA1A2B95AB0008EC64 /* Pholder AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB5F9F81A2B95AB0008EC64 /* Build configuration list for PBXNativeTarget "Pholder AssistantTests" */;
+			buildPhases = (
+				AAB5F9E71A2B95AB0008EC64 /* Sources */,
+				AAB5F9E81A2B95AB0008EC64 /* Frameworks */,
+				AAB5F9E91A2B95AB0008EC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB5F9ED1A2B95AB0008EC64 /* PBXTargetDependency */,
+			);
+			name = "Pholder AssistantTests";
+			productName = "Pholder AssistantTests";
+			productReference = AAB5F9EB1A2B95AB0008EC64 /* Pholder AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB5F9D01A2B95AB0008EC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ethan Bogdan";
+				TargetAttributes = {
+					AAB5F9D71A2B95AB0008EC64 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AAB5F9EA1A2B95AB0008EC64 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = AAB5F9D71A2B95AB0008EC64;
+					};
+				};
+			};
+			buildConfigurationList = AAB5F9D31A2B95AB0008EC64 /* Build configuration list for PBXProject "Pholder Assistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB5F9CF1A2B95AB0008EC64;
+			productRefGroup = AAB5F9D91A2B95AB0008EC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB5F9D71A2B95AB0008EC64 /* Pholder Assistant */,
+				AAB5F9EA1A2B95AB0008EC64 /* Pholder AssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB5F9D61A2B95AB0008EC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB5F9E31A2B95AB0008EC64 /* Images.xcassets in Resources */,
+				AAB5F9E61A2B95AB0008EC64 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB5F9E91A2B95AB0008EC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB5F9D41A2B95AB0008EC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB5F9E11A2B95AB0008EC64 /* main.m in Sources */,
+				AAB5F9DF1A2B95AB0008EC64 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB5F9E71A2B95AB0008EC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB5F9F21A2B95AB0008EC64 /* Pholder_AssistantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB5F9ED1A2B95AB0008EC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB5F9D71A2B95AB0008EC64 /* Pholder Assistant */;
+			targetProxy = AAB5F9EC1A2B95AB0008EC64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB5F9E41A2B95AB0008EC64 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB5F9E51A2B95AB0008EC64 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB5F9F31A2B95AB0008EC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAB5F9F41A2B95AB0008EC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAB5F9F61A2B95AB0008EC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pholder Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAB5F9F71A2B95AB0008EC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pholder Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAB5F9F91A2B95AB0008EC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pholder AssistantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pholder Assistant.app/Contents/MacOS/Pholder Assistant";
+			};
+			name = Debug;
+		};
+		AAB5F9FA1A2B95AB0008EC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pholder AssistantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pholder Assistant.app/Contents/MacOS/Pholder Assistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB5F9D31A2B95AB0008EC64 /* Build configuration list for PBXProject "Pholder Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB5F9F31A2B95AB0008EC64 /* Debug */,
+				AAB5F9F41A2B95AB0008EC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB5F9F51A2B95AB0008EC64 /* Build configuration list for PBXNativeTarget "Pholder Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB5F9F61A2B95AB0008EC64 /* Debug */,
+				AAB5F9F71A2B95AB0008EC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAB5F9F81A2B95AB0008EC64 /* Build configuration list for PBXNativeTarget "Pholder AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB5F9F91A2B95AB0008EC64 /* Debug */,
+				AAB5F9FA1A2B95AB0008EC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB5F9D01A2B95AB0008EC64 /* Project object */;
+}

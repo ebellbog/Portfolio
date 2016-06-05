@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3EABC6F3-3744-40DE-9C87-879A4115C2AE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pholder Assistant</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>712F84CAF995833D012EF424B32B015C7901DDA7</key>
+		<string>https://github.com/EMP1223/photorganize.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pholder Assistant/Pholder Assistant.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>712F84CAF995833D012EF424B32B015C7901DDA7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EMP1223/photorganize.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>712F84CAF995833D012EF424B32B015C7901DDA7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>712F84CAF995833D012EF424B32B015C7901DDA7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>photorganize</string>
+		</dict>
+	</array>
+</dict>
+</plist>
